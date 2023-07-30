@@ -1,0 +1,59 @@
+:root {
+    --accent-color-1:#1414D2;
+    --accent-color-2: #002244;
+    --accent-color-3: #006080;
+    --accent-color-4:#6244BB;
+    --text-color-light: #FFFFFF;
+    --text-color-dark: #000000;
+    --bg-color-light: #FFFFFF;
+    --bg-color-dark: #232222;
+}
+
+/* Add your custom styles here */
+body {
+    background-color: var(--bg-color-light);
+}
+
+.card-img-holder{
+    height:50%;
+    width:90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-img-top {
+    display: block;
+
+    max-height: 100%;
+    max-width: 100%;
+    height: auto;
+    width:auto
+  }
+
+.card:hover{
+    box-shadow: 4px 4px 4px var(--accent-color-2);
+    transform:scale(1.05);
+    cursor: pointer;
+}
+
+.navbar {
+    background-color: var(--accent-color-1);
+    color: var(--text-color-light);
+}
+
+.navbar-brand{
+    color: var(--text-color-light)
+}
+.sidebar {
+    background-color: var(--bg-color-dark);
+    color: var(--text-color-light);
+}
+
+.content {
+    padding-top: 20px;
+    min-height: 100vh;
+}
+
+/* Add more custom styles as needed */
+
